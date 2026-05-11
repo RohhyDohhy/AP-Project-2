@@ -46,7 +46,7 @@ void printBoard(const Board& board)
         for (int j = 0; j < SIZE; j++)
             std::cout << board[i][j] << ' ';
 
-        std::cout << std::end;
+        std::cout << std::endl;
     }
 }
 
